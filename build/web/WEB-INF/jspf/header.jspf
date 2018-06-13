@@ -1,0 +1,30 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+
+<div class="layout bg hidden-l">
+    <div class="container-layout height-big">
+        <span class="float-right"><a href="#">注册</a> <span class="text-little text-gray">|</span>
+            <a href="login.jsp">登录</a> <span class="text-little text-gray">|</span> <a href="#">联系</a>
+        </span>欢迎使用拼图前端框架
+    </div>
+</div>
+<div class="container padding-big-top padding-big-bottom border-bottom">
+    <div class="line">
+        <div class="xl12 xs5 xm6 xb7">
+            <button class="button icon-navicon float-right" data-target="#header-demo">
+            </button>
+            <a href="#">
+                <h2 class="swing-hover"><span class="icon-paper-plane"></span> 学生信息管理系统V1.0</h2>
+            </a>
+        </div>
+        <div class="xl12 xs7 xm6 xb5 padding-small-top">
+            <ul class="nav nav-menu nav-inline nav-navicon nav-split" id="header-demo">
+                <li class="active"><a href="index.jsp">首页</a> </li>
+                <li><a href="DisplayStudent">学生信息</a></li>
+                <li><a href="#">课程信息</a> </li>
+                <li><a href="#">选课信息</a> </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>

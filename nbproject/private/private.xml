@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/StuMis/src/java/vip/zjko/dao/IStudentDao.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/test/test.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/servlet/admin/AdminLogout.java</file>
+            <file>file:/D:/StuMis/web/admin/student.jsp</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/dao/IGradeDao.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/test/ListTest.java</file>
+            <file>file:/D:/StuMis/web/css/admin.css</file>
+            <file>file:/D:/StuMis/web/login.jsp</file>
+            <file>file:/D:/StuMis/web/student.jsp</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/model/Grade.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/test/StudentTest.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/impl/GradeDaoImpl.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/servlet/admin/StudentManage.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/test/Major.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/impl/MajorDaoImpl.java</file>
+            <file>file:/D:/StuMis/web/WEB-INF/jspf/admin_menu.jspf</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/util/DatabaseBean.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/impl/StudentDaoImpl.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/test/Grade.java</file>
+            <file>file:/D:/StuMis/web/WEB-INF/jspf/admin_top.jspf</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/model/Student.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/servlet/admin/AdminLogin.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/config/DB.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/util/DaoFactory.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/impl/UserDaoImpl.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/servlet/DisplayStudent.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/model/User.java</file>
+            <file>file:/D:/StuMis/web/index.jsp</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/dao/IMajorDao.java</file>
+            <file>file:/D:/StuMis/web/admin/index.jsp</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/test/StudentQueryTest.java</file>
+            <file>file:/D:/StuMis/web/admin/student_add.jsp</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/util/Pagination.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/model/Major.java</file>
+            <file>file:/D:/StuMis/src/java/vip/zjko/dao/IUserDao.java</file>
+        </group>
+    </open-files>
+</project-private>
