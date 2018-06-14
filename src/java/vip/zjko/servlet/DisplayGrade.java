@@ -39,7 +39,48 @@ public class DisplayGrade extends HttpServlet {
 //        String 
 //><td>${g.id}</td><td>${g.name}</td><td>${g.year}</td><td>${g.major.gname}</td><td>${g.major.director}</td>
         
-        
+//        
+//        Pagination pagination = new Pagination();
+//        int page = 1;
+//        if (pageNo != null) {
+//            page = Integer.parseInt(pageNo);
+//        }
+//        pagination.setPageNo(page);
+//        pagination.setUrl("DisplayStudent?");
+//        //所有专业信息
+//        List<Major> majors = DaoFactory.getMajorDao().getAll();
+//        List<Grade> grades = null;
+//        List<Student> students = null;
+//
+//        //分页显示班级学生信息
+//        if (gid != null) {
+//            students = DaoFactory.getStudentDao().getSomeByGid(Integer.parseInt(gid));
+//            pagination.setUrl(pagination.getUrl() + "&gid=" + gid);
+//            if(mid != null) {
+//                grades = DaoFactory.getGradeDao().getSomeByMid(Integer.parseInt(mid));
+//                pagination.setUrl(pagination.getUrl() + "&gid=" + gid + "&mid=" + mid);
+//            }
+//        } else {
+//            //显示专业下的班级信息和分页显示所有专业的学生信息
+//            if (mid != null) {
+//                grades = DaoFactory.getGradeDao().getSomeByMid(Integer.parseInt(mid));
+//                students = DaoFactory.getStudentDao().getSomeByMid(Integer.parseInt(mid), pagination);
+//                pagination.setUrl(pagination.getUrl() + "&mid=" + mid);
+//            }
+//        }
+//
+//        //分页显示所有学生信息
+//        if (mid == null && gid == null) {
+//            students = DaoFactory.getStudentDao().getAll(pagination);
+//        }
+//
+//        request.setAttribute("majors", majors);
+//        request.setAttribute("grades", grades);
+//        request.setAttribute("students", students);
+//        request.setAttribute("pagination", pagination);
+//
+//        request.getRequestDispatcher("student.jsp").forward(request, response);
+//        
         
         
     }

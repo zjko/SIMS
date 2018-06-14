@@ -5,7 +5,7 @@
     <div class="container-layout height-big">
         <span class="float-right"><a href="#">注册</a> <span class="text-little text-gray">|</span>
             <a href="login.jsp">登录</a> <span class="text-little text-gray">|</span> <a href="#">联系</a>
-        </span>欢迎使用拼图前端框架
+        </span>
     </div>
 </div>
 <div class="container padding-big-top padding-big-bottom border-bottom">

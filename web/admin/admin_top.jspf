@@ -1,0 +1,7 @@
+<%@ page pageEncoding="UTF-8" %>
+<div class="logo margin-big-left fadein-top"><h2>学生信息管理系统系统 — 后台管理中心</h2></div>
+<div class="head-r">
+    <span class="text-white">您好，${user.username}，欢迎您的光临。</span>
+    <a class="button button-little bg-green" href="<%= request.getContextPath()%>/index.jsp" target="_blank"><span class="icon-home"></span> 前台首页</a> &nbsp;&nbsp;
+    <a class="button button-little bg-red" href="<%= request.getContextPath()%>/Admin/AdminLogout"><span class="icon-power-off"></span> 退出登录</a> 
+</div>

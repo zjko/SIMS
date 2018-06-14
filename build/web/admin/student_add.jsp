@@ -68,7 +68,8 @@
                         <label for="gid">学生班级</label>
                     </div>
                     <div class="field">
-                        <mytag:gradelisttag/>
+                        <mytag:gradelisttag />
+                       
                     </div>
                 </div>
                 <div class="form-button">

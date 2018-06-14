@@ -12,6 +12,16 @@
         <link rel="stylesheet" href="<%= request.getContextPath()%>/css/admin.css">
         <script src="<%= request.getContextPath()%>/js/jquery.js"></script>
         <script src="<%= request.getContextPath()%>/js/pintuer.js"></script>
+        <script type="text/javascript">
+            function confDel(){
+                var tip = "确认是否删除当前学生信息记录？";
+                if( confirm(tip) ){
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        </script>
         <style>
             .table td{vertical-align: middle;}
         </style>
@@ -33,8 +43,8 @@
                                 <span class="addbtn">
                                     <button type="button" class="button icon-search"></button>
                                 </span>
-                                <input type="text" class="input" name="keywords" size="30" placeholder="请输入要搜索的学号" />
-                                <span class="addbtn"><button type="button" class="button">搜索</button></span>
+                                <input type="text" class="input" name="sno" size="30" placeholder="请输入要搜索的学号" />
+                                <span class="addbtn"><input type="submit" class="button" value="查询" /></span>
                             </div>
                         </div>
                     </div>
@@ -48,7 +58,7 @@
                         <tr>
                             <td>${stu.sno}</td><td>${stu.sname}</td><td>${stu.ssex}</td><td>${stu.sage}</td><td>${stu.grade.gname}</td><td>${stu.grade.year}</td><td>${stu.grade.major.mname}</td><td>${stu.grade.major.director}</td>
                             <td>
-                                <a class="button button-small border-red" href="<%=request.getContextPath()%>/Admin/StudentDelete?sno=${stu.sno}">删除</a> | 
+                                <a class="button button-small border-red" href="<%=request.getContextPath()%>/Admin/StudentDelete?sno=${stu.sno}" onclick="return confDel();">删除</a> | 
                                 <a class="button button-small border-main" href="<%=request.getContextPath()%>/Admin/StudentUpdate?sno=${stu.sno}">修改</a>
                             </td>
                         </tr>

@@ -32,7 +32,7 @@
                             <ul class="list-group">
                                 <c:forEach var="grade" items="${grades}">
                                     <li><a href="DisplayStudent?gid=${grade.gid}&mid=${grade.major.mid}" title="${grade.gid}">${grade.gname}</a></li>
-                                    </c:forEach>                    
+                                    </c:forEach>
                             </ul>
                         </div>
                     </c:if>
